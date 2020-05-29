@@ -1,0 +1,34 @@
+// --------------------------------------------------------------------------------
+// 1 - Executar cmd npm para iniciar o projeto
+//     > npm init -y
+// 2 - Instalar express
+//     > npm install express
+// 3 - Criar e editar arquivo principal (index.js)
+// 4 - Instalar nodemon. Faz a reinicializacao do servidor toda vez que ocorrer 
+//     atualizacao do codigo.
+//  4.1 - Instalar como dependencia de desenvolvimento (devDependencies)
+//        > npm install -D nodemon
+//  4.2 - Atualizar aqruivo package.js incluindo um novo item de scripts
+//        ex: "scripts": { "dev": "nodemon index.js" }
+//  4.3 - Executar servidor com o cmd npm de execucao de scripts
+//        > npm rund dev
+// 5 - Configurar MomngoDB
+//  5.1 - Adicionar dependencia do mongo no projeto
+//         > npm install mongoose (orm mongodb)
+//  5.2 - importar mongoose no projeto (index.js)
+// 6 - Criar Model de exemplo
+// 7 - Instalar require-dir (Evita o retrabalho na declaracao de todos os models existentes)
+//      > npm install require-dir
+//  7.1 - Importar require-dir 
+// 8 - Ferramenta opcional Insomnia (Ferramenta Rest Client)
+// 9 - Pagincao: Instalar modulo mongoose-paginate
+//      > npm install mongoose-paginate
+// 10 - Importar modulo dentro do arquivo de Model
+// 11 - Permitir acesso externo a aplicao (Acesso publico a qualquer sistema)
+//  11.1 - Instalar cors
+//          > npm install cors
+//  11.2 - Importar e configurar o uso do cors dentro do aquivo js principal
+//
+//
+//  ex: // http://localhost:3001/api/products
+// --------------------------------------------------------------------------------
